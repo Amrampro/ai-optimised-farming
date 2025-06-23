@@ -20,7 +20,7 @@
 ## 📁 Structure du projet
 
 ```bash
-source_code/
+fieldgenius_src/
 │
 ├── assets/            # Images et fichiers CSS
 │   └── *.jpg, *.css   # Ressources pour l'interface
@@ -51,18 +51,18 @@ pip install scikit-learn pandas numpy joblib
 ```
 
 ### 2. Déploiement
-- Copier le dossier fieldgenius/ dans htdocs (XAMPP)
+- Copier le dossier fieldgenius_src/ dans htdocs (XAMPP)
 - Démarrer Apache dans XAMPP
-- Accéder à http://localhost/fieldgenius
+- Accéder à http://localhost/fieldgenius_src
 
 ## 🧪 Utilisation
 
-1- Ouvrir index.php dans le navigateur.
-2- Sélectionner la culture (maïs, haricot ou arachide)
-3- Entrer la superficie OU la quantité de semences
-4- Choisir le type de sol et indiquer si engrais est utilisé
-5- Cliquer sur Calculer
-6- Obtenez un plan complet de semis, y compris :
-    Semences nécessaires
-    Rendement estimé
-    Période de semaille
+- Ouvrir index.php dans le navigateur.
+- Sélectionner la culture (maïs, haricot ou arachide)
+- Entrer la superficie OU la quantité de semences
+- Choisir le type de sol et indiquer si engrais est utilisé
+- Cliquer sur Calculer
+- Obtenez un plan complet de semis, y compris :
+    (Semences nécessaires,
+    Rendement estimé,
+    Période de semaille)
