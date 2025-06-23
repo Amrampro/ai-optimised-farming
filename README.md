@@ -28,7 +28,6 @@ fieldgenius_src/
 ├── ai_model.pkl       # Modèle IA sérialisé (avec joblib)
 ├── predict.py         # Script Python pour exécuter les prédictions
 ├── index.php          # Interface web HTML + PHP
-├── README.md          # Fichier de documentation (ce fichier)
 ```
 
 ## ⚙️ Technologies utilisées
