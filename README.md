@@ -20,7 +20,7 @@
 ## 📁 Structure du projet
 
 ```bash
-fieldgenius/
+source_code/
 │
 ├── assets/            # Images et fichiers CSS
 │   └── *.jpg, *.css   # Ressources pour l'interface
@@ -29,3 +29,40 @@ fieldgenius/
 ├── predict.py         # Script Python pour exécuter les prédictions
 ├── index.php          # Interface web HTML + PHP
 ├── README.md          # Fichier de documentation (ce fichier)
+```
+
+## ⚙️ Technologies utilisées
+
+- Python 3 (IA & traitement)
+  scikit-learn, pandas, numpy, joblib
+- PHP (serveur web)
+- HTML/CSS/JavaScript (interface utilisateur)
+- XAMPP / Apache (exécution en local)
+- Google Colab (entraînement initial du modèle)
+
+## 🔧 Installation locale
+
+### 1. Prérequis
+- XAMPP ou équivalent (Apache + PHP)
+- Python installé localement
+- Modules Python requis :
+```bash
+pip install scikit-learn pandas numpy joblib
+```
+
+### 2. Déploiement
+- Copier le dossier fieldgenius/ dans htdocs (XAMPP)
+- Démarrer Apache dans XAMPP
+- Accéder à http://localhost/fieldgenius
+
+## 🧪 Utilisation
+
+1- Ouvrir index.php dans le navigateur.
+2- Sélectionner la culture (maïs, haricot ou arachide)
+3- Entrer la superficie OU la quantité de semences
+4- Choisir le type de sol et indiquer si engrais est utilisé
+5- Cliquer sur Calculer
+6- Obtenez un plan complet de semis, y compris :
+    Semences nécessaires
+    Rendement estimé
+    Période de semaille
